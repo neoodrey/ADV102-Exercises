@@ -7,7 +7,7 @@ export default function Exercise() {
         { title: "Exercise 3", description: "<p>Create login screen<br>Login screen fields:<ul><li>Email</li><li>Password</li></ul></p>" },
         { title: "Exercise 4", description: "<p>useState/useEffect</p>" },
         { title: "Exercise 5", description: "<p>Register</p>" },
-        { title: "Exercise 6", description: "<p>Some other description</p>" },
+        { title: "Exercise 6", description: "<p>CRUD" },
         { title: "Exercise 7", description: "<p>Some other description</p>" },
     ];
 
@@ -28,7 +28,9 @@ export default function Exercise() {
                         else if (index === 2){
                             router.push("/Exercise_5");
                         } 
-                        else {
+                        else if (index === 3){
+                            router.push("/Exercise_6");
+                        } else {
                             undefined
                         }
 
