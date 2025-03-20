@@ -8,7 +8,7 @@ export default function Exercise() {
         { title: "Exercise 4", description: "<p>useState/useEffect</p>" },
         { title: "Exercise 5", description: "<p>Register</p>" },
         { title: "Exercise 6", description: "<p>CRUD" },
-        { title: "Exercise 7", description: "<p>Some other description</p>" },
+        { title: "Exercise 7", description: "<p>API Quiz</p>" },
     ];
 
     return (
@@ -30,6 +30,8 @@ export default function Exercise() {
                         } 
                         else if (index === 3){
                             router.push("/Exercise_6");
+                        } else if (index === 4) {
+                            router.push("/Exercise_7");
                         } else {
                             undefined
                         }
