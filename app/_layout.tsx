@@ -29,6 +29,18 @@ export default function RootLayout() {
         name="exercise_4/index" 
         options={{ title: "index" }} 
       />
+        <Stack.Screen 
+        name="Exercise_8/FormApp" 
+        options={{ title: "Form Container" }} 
+      />
+        <Stack.Screen 
+        name="Exercise_8/Register" 
+        options={{ title: "Register SCreen" }} 
+      />
+        <Stack.Screen 
+        name="Exercise_8/Login" 
+        options={{ title: "Login Screen" }} 
+      />
         </Stack>
     )
 }

@@ -9,6 +9,8 @@ export default function Exercise() {
         { title: "Exercise 5", description: "<p>Register</p>" },
         { title: "Exercise 6", description: "<p>CRUD" },
         { title: "Exercise 7", description: "<p>API Quiz</p>" },
+        { title: "Exercise 8", description: "<p>Register and Login</p>" },
+        { title: "Exercise 9", description: "<p></p>" },
     ];
 
     return (
@@ -32,7 +34,10 @@ export default function Exercise() {
                             router.push("/Exercise_6");
                         } else if (index === 4) {
                             router.push("/Exercise_7");
-                        } else {
+                        }else if(index === 5){
+                            router.push("/Exercise_8/FormApp")
+                        }
+                        else {
                             undefined
                         }
 
